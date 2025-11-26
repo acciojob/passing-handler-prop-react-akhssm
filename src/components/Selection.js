@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 
 const Selection = ({ applyColor }) => {
-  const [selectionStyle, updateSelectionStyle] = useState({
-    background: "",
-  });
+  const [selectionStyle, updateSelectionStyle] = useState({ background: "" });
 
   return (
     <div
